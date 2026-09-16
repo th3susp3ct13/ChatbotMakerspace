@@ -1,3 +1,7 @@
+
+
+
+
 # Moodbot – Schritt-für-Schritt Anleitung
 
 Diese Anleitung begleitet euch durch den Kurs „KI praktisch anwenden – Step by Step zu deinem Chatbot!" (KI-Campus). Folgt den Schritten genau in dieser Reihenfolge – dann funktioniert euer Chatbot am Ende garantiert!
