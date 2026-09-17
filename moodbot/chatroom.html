@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatroom</title>
+    <link rel="stylesheet" href="Chatroom.css" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="theme2.css" />
+</head>
+<body>
+    <div class="chat-container"></div>
+    <script src="Chatroom.js"></script>
+    <script type="text/javascript">
+       var chatroom = new window.Chatroom({
+          host: "https://organic-space-lamp-w5r9pv7rqxr2gv6v-5005.app.github.dev",
+          title: "Chat mit dem Bot",
+          container: document.querySelector(".chat-container"),
+          welcomeMessage: "Freut mich dich kennenzulernen. Wie ist dein Name?",
+          speechRecognition: "de-DE",
+          voiceLang: "de-DE"
+       });
+       chatroom.openChat();
+    </script>
+</body>
+</html>

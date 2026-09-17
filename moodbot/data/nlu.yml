@@ -1,0 +1,105 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hallo
+
+- intent: goodbye
+  examples: |
+    - bye
+    - ciao
+    - tschüss
+
+- intent: affirm
+  examples: |
+    - yes
+    - ja
+    - natürlich
+
+- intent: deny
+  examples: |
+    - no
+    - nein
+
+- intent: mood_great
+  examples: |
+    - perfekt
+    - super
+    - mir gehts gut
+
+- intent: mood_unhappy
+  examples: |
+    - schlecht
+    - traurig
+    - nicht gut
+
+- intent: bot_challenge
+  examples: |
+    - bist du ein bot?
+    - wer bist du?
+
+# --- Hier darunter kommen deine 10 neuen Fragen ---
+- intent: frage_hauptstadt
+  examples: |
+    - Was ist die Hauptstadt von Österreich?
+    - Welches Land hat Wien als Hauptstadt?
+    - Sag mir die Hauptstadt
+
+- intent: frage_erschaffen
+  examples: |
+    - Wer hat dich programmiert?
+    - Wer hat dich erstellt?
+    - Von wem kommst du?
+
+- intent: frage_alter
+  examples: |
+    - Wie alt bist du?
+    - Was ist dein Alter?
+    - Bist du schon alt?
+
+- intent: frage_wohnsitz
+  examples: |
+    - Wo wohnst du?
+    - Wo befindest du dich?
+    - Was ist dein Standort?
+
+- intent: frage_hobbys
+  examples: |
+    - Was machst du in deiner Freizeit?
+    - Hast du Hobbys?
+    - Was machst du gerne?
+
+- intent: frage_sprachen
+  examples: |
+    - Welche Sprachen sprichst du?
+    - Kannst du Deutsch?
+    - Sprichst du auch Englisch?
+
+- intent: frage_wetter
+  examples: |
+    - Wie ist das Wetter heute?
+    - Regnet es draußen?
+    - Scheint die Sonne?
+
+- intent: frage_lieblingsfarbe
+  examples: |
+    - Was ist deine Lieblingsfarbe?
+    - Welche Farbe magst du am liebsten?
+    - Hast du eine Lieblingsfarbe?
+
+- intent: frage_ziel
+  examples: |
+    - Was ist deine Aufgabe?
+    - Warum existierst du?
+    - Was ist dein Zweck?
+
+- intent: frage_guter_laune
+  examples: |
+    - Bist du gut gelaunt?
+    - Wie geht es dir heute?
+    - Freust du dich?
+    

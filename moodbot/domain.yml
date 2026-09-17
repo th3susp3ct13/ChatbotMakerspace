@@ -1,0 +1,75 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - frage_hauptstadt
+  - frage_erschaffen
+  - frage_alter
+  - frage_wohnsitz
+  - frage_hobbys
+  - frage_sprachen
+  - frage_wetter
+  - frage_lieblingsfarbe
+  - frage_ziel
+  - frage_guter_laune
+
+responses:
+  utter_greet:
+    - text: "Hallo! Wie geht es dir?"
+
+  utter_cheer_up:
+    - text: "Hier ist etwas, das dich aufmuntert:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Hat dir das geholfen?"
+
+  utter_happy:
+    - text: "Super, mach weiter so!"
+
+  utter_goodbye:
+    - text: "Tschüss!"
+
+  utter_iamabot:
+    - text: "Ich bin ein Bot, angetrieben von Rasa."
+
+  # Deine 10 Antworten auf Deutsch
+  utter_antwort_hauptstadt:
+    - text: "Die Hauptstadt von Österreich ist Wien."
+
+  utter_antwort_erschaffen:
+    - text: "Ich wurde im Rahmen des AI Campus Kurses entwickelt."
+
+  utter_antwort_alter:
+    - text: "Als KI habe ich kein echtes Alter, ich bin frisch programmiert worden!"
+
+  utter_antwort_wohnsitz:
+    - text: "Ich wohne in der Cloud und laufe in einem GitHub Codespace."
+
+  utter_antwort_hobbys:
+    - text: "Meine Freizeit verbringe ich damit, Nachrichten zu verarbeiten und zu lernen."
+
+  utter_antwort_sprachen:
+    - text: "Ich spreche hauptsächlich Deutsch und Englisch."
+
+  utter_antwort_wetter:
+    - text: "Das Wetter kann ich leider nicht sehen, da ich keinen Blick nach draußen habe!"
+
+  utter_antwort_lieblingsfarbe:
+    - text: "Ich mag das klassische Terminal-Grün am liebsten."
+
+  utter_antwort_ziel:
+    - text: "Mein Ziel ist es, dir bei deinen ersten Schritten mit Rasa zu helfen."
+
+  utter_antwort_guter_laune:
+    - text: "Immer bestens gelaunt, bereit für deine Befehle!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
